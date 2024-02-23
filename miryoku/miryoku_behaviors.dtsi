@@ -33,12 +33,19 @@
       tapping-term-ms = <250>;
       bindings = <&kp O>, <&kp DE_OE>;
     };
-    td3: tap_dance_mod_tap_2 {
+    td3: td3 {
       compatible = "zmk,behavior-tap-dance";
-      label = "TAP_DANCE_MOD_TAB_2";
+      label = "u_td3";
       #binding-cells = <0>;
       tapping-term-ms = <250>;
       bindings = <&u_mt LALT S>, <&ms>, <&kp DE_SS>;
+    };
+    td4: td4 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "u_td4";
+      #binding-cells = <0>;
+      tapping-term-ms = <250>;
+      bindings = <&u_mt LSHFT A>, <&kp DE_AE>;
     };
   };
 
