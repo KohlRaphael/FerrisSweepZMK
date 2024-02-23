@@ -33,7 +33,7 @@
       tapping-term-ms = <250>;
       bindings = <&kp O>, <&kp DE_OE>;
     };
-    td_mt2: tap_dance_mod_tap_2 {
+    td3: tap_dance_mod_tap_2 {
       compatible = "zmk,behavior-tap-dance";
       label = "TAP_DANCE_MOD_TAB_2";
       #binding-cells = <0>;
