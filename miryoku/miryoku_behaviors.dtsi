@@ -21,14 +21,14 @@
     };
     td1: td1 {
       compatible = "zmk,behavior-tap-dance";
-      label = "u_td";
+      label = "u_td1";
       #binding-cells = <0>;
       tapping-term-ms = <250>;
       bindings = <&kp U>, <&kp DE_UE>;
     };
     td2: td2 {
       compatible = "zmk,behavior-tap-dance";
-      label = "u_td";
+      label = "u_td2";
       #binding-cells = <0>;
       tapping-term-ms = <250>;
       bindings = <&kp O>, <&kp DE_OE>;
