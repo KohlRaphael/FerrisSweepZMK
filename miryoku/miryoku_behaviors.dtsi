@@ -47,6 +47,13 @@
       tapping-term-ms = <250>;
       bindings = <&u_mt LSHFT A>, <&kp DE_AE>;
     };
+    td5: td5 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "u_td5";
+      #binding-cells = <0>;
+      tapping-term-ms = <250>;
+      bindings = <&kp DE_QUOT>, <&kp DE_DQUO>;
+    };
   };
 
   macros {
