@@ -22,7 +22,7 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, SPACE), U_
 U_NP,              U_NP,              &kp DE_DOT,        &kp N0,              &kp DE_MINS,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_SYM \
-&kp DE_LCBR,       &kp DE_AMPR,       &kp DE_ASTR,       &kp DE_LPRN,         &kp DE_RCBR,        U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
+&kp DE_LCBR,       &kp DE_AMPR,       &kp DE_ASTR,       &kp DE_RPRN,         &kp DE_RCBR,        U_NA,              &u_to_U_BASE,      &u_to_U_EXTRA,     &u_to_U_TAP,       U_BOOT,            \
 &kp DE_COLN,       &kp DE_DLR,        &kp DE_PERC,       &kp DE_CIRC,         &kp DE_PLUS,        U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 &kp DE_TILD,       &kp DE_EXLM,       &kp DE_AT,         &kp DE_HASH,         &kp DE_LABK,        U_NA,              &u_to_U_SYM,       &u_to_U_MOUSE,     &kp RALT,          U_NA,              \
-U_NP,              U_NP,              &kp DE_LPRN,       &kp DE_RPRN,         &kp DE_UNDS,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              &kp DE_LPRN,       &kp DE_LPRN,         &kp DE_UNDS,        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
