@@ -33,5 +33,22 @@
       tapping-term-ms = <250>;
       bindings = <&kp O>, <&kp DE_OE>;
     };
+    td_mt2: tap_dance_mod_tap_2 {
+      compatible = "zmk,behavior-tap-dance";
+      label = "TAP_DANCE_MOD_TAB_2";
+      #binding-cells = <0>;
+      tapping-term-ms = <250>;
+      bindings = <&u_mt LALT S>, <&ms>, <&kp DE_SS>;
+    };
   };
 };
+
+macros {
+  ms: macro_s {
+    label = "macro_s";
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&macro_tap &kp S &kp S>
+                ;
+        };
+    };
