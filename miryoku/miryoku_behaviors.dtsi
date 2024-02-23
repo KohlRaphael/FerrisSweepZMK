@@ -26,11 +26,11 @@
       tapping-term-ms = <250>;
       bindings = <&kp U>, <&kp DE_UE>;
     };
-    td2: td1 {
+    td2: td2 {
       compatible = "zmk,behavior-tap-dance";
       label = "u_td";
       #binding-cells = <0>;
-      tapping-term-ms = <U_TAPPING_TERM>;
+      tapping-term-ms = <250>;
       bindings = <&kp O>, <&kp DE_OE>;
     };
   };
