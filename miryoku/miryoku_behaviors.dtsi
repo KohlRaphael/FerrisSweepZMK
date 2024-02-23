@@ -11,12 +11,12 @@
       flavor = "tap-preferred";
       bindings = <&kp>, <&kp>;
     };
-    u_td: u_td {
+    td1: td1 {
       compatible = "zmk,behavior-tap-dance";
       label = "u_td";
       #binding-cells = <0>;
       tapping-term-ms = <U_TAPPING_TERM>;
-      bindings = <&kp>, <&kp>;
+      bindings = <&kp U>, <&kp DE_UE>;
     };
     u_lt: u_lt {
       compatible = "zmk,behavior-hold-tap";
