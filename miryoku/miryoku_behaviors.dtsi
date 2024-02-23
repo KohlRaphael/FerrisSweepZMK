@@ -41,14 +41,13 @@
       bindings = <&u_mt LALT S>, <&ms>, <&kp DE_SS>;
     };
   };
-};
 
-macros {
-  ms: macro_s {
-    label = "macro_s";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings = <&macro_tap &kp S &kp S>
-                ;
-        };
+  macros {
+    ms: macro_s {
+      label = "macro_s";
+      compatible = "zmk,behavior-macro";
+      #binding-cells = <0>;
+      bindings = <&macro_tap &kp S &kp S>;
     };
+  };
+};
